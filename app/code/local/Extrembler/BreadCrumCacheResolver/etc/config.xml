@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+* @category Extrembler
+* @package Extrembler_BreadCrumCacheResolver
+* @author  Extrembler <gaurangpadhiyar1993@gmail.com>
+-->
+<config>
+    <modules>
+        <Extrembler_BreadCrumCacheResolver>
+            <version>1.0.0</version>
+        </Extrembler_BreadCrumCacheResolver>
+    </modules>
+    <global>
+        <blocks>
+            <breadcrumcacheresolver>
+                <class>Extrembler_BreadCrumCacheResolver_Block</class>
+            </breadcrumcacheresolver>
+            <page>
+                <rewrite>
+                    <html_breadcrumbs>Extrembler_BreadCrumCacheResolver_Block_Breadcrumbs</html_breadcrumbs>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+</config>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+* @category Extrembler
+* @package Extrembler_BreadCrumCacheResolver
+* @author  Extrembler <gaurangpadhiyar1993@gmail.com>
+-->
+<config>
+    <modules>
+        <Extrembler_BreadCrumCacheResolver>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Extrembler_BreadCrumCacheResolver>
+    </modules>
+</config>
