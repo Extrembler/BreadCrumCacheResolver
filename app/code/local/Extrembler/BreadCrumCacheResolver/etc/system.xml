@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category Extrembler
+* @package Extrembler_BreadCrumCacheResolver
+* @author  Extrembler <gaurangpadhiyar1993@gmail.com>
+*/
+-->
+<config>
+    <sections>
+        <breadcrumcacheresolver>
+            <label>BreadCrumCacheResolver</label>
+            <tab>extrembler</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>85</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <about>
+                    <frontend_model>extremblerbase/adminhtml_about</frontend_model>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </about>
+            </groups>
+        </breadcrumcacheresolver>
+    </sections>
+</config>

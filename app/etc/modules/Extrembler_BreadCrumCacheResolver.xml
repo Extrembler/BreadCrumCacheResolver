@@ -9,6 +9,9 @@
         <Extrembler_BreadCrumCacheResolver>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>
+	            <Extrembler_Base />
+	        </depends>
         </Extrembler_BreadCrumCacheResolver>
     </modules>
 </config>
